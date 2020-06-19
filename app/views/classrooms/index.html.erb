@@ -1,0 +1,9 @@
+<h1>Classrooms:</h1>
+
+<ul>
+    <% @classrooms.each do |classroom| %>
+        <li><%= classroom.course_name %>
+            <%= classroom.semester %></li><br>
+    <% end %>
+
+</ul>
